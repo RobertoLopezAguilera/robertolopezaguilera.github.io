@@ -522,3 +522,61 @@ footer {
         padding: 0 15px;
     }
 }
+/* Botones de contacto mejorados */
+.contact-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact-buttons .cta-button {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    background: var(--white);
+    color: var(--primary);
+    border: 2px solid var(--white);
+}
+
+.contact-buttons .cta-button:hover {
+    background: transparent;
+    color: var(--white);
+}
+
+.contact-buttons .whatsapp-btn {
+    background: #25D366;
+    color: white;
+    border-color: #25D366;
+}
+
+.contact-buttons .whatsapp-btn:hover {
+    background: transparent;
+    color: #25D366;
+}
+
+.contact-buttons .email-btn {
+    background: var(--white);
+    color: var(--primary);
+}
+
+.contact-buttons .email-btn:hover {
+    background: transparent;
+    color: var(--white);
+}
+
+.contact-note {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* Mejorar contacto-item para WhatsApp */
+.contact-item i.fa-whatsapp {
+    background: #25D366;
+}
+
+.contact-item a[href^="https://wa.me"]:hover {
+    color: #25D366;
+}
